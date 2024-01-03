@@ -1,0 +1,36 @@
+/* body{
+    background-color: red;
+}
+
+body{
+    background-color: gray;
+} */
+
+h4{
+    color: red;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+a{
+    font-size: 50px;
+    background-color: aqua;
+}
+/* h4 class id div  */
+div{
+    background-color: royalblue;
+}
+.link h4{
+  background-color: gray;     
+}
+.abc{
+    font-size: 70px;
+}
+#links h4{
+    color: blue;
+}
+/* .link a:last-child{
+    color: chartreuse;
+} */
+
+/* .class, #id, tag, */
