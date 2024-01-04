@@ -21,8 +21,54 @@
     align-items: center;
 }
 
-.button
-{
-    background: rgb(171, 171, 25);
-font-size: larger;
+
+.links a{
+    color: #1D1D1D;
+/* font-family: Roboto; */
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+margin-right: 45px;
+display: inline-block;
 }
+
+.btn_green
+{
+margin-left: 15px;
+font-size: 25px;
+line-height: 1;
+font-weight: 500;
+color: #fff;
+border:  1px solid transparent;
+background-color: #4D2C5E;
+border-radius: 218px;
+padding: 18px 57px;
+/* padding: 18px 57px 18px 57px; top ,right , bottom , left */
+/* padding: 10px 59px; top & bottom , left & right */
+/* padding: 18px 57px 18px; top , left & right , bottom */
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+
+/* 
+What are Pseudo-classes?
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus */
+
+/* link https://www.w3schools.com/css/css_pseudo_classes.asp */
+.btn_green:hover{
+    border: 1px solid #4D2C5E;
+    background-color: #fff;
+    color: #4D2C5E;
+} 
+
+
+
