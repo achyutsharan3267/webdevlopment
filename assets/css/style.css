@@ -52,6 +52,9 @@ cursor: pointer;
 transition: all 0.3s ease;
 }
 
+h1 {
+    margin-left: 194px;
+}
 
 /* 
 What are Pseudo-classes?
@@ -69,6 +72,5 @@ Style an element when it gets focus */
     background-color: #fff;
     color: #4D2C5E;
 } 
-
 
 
