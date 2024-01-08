@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;  
 }
-
+/* font-family: 'Roboto', sans-serif; */
+header{
+    background: #FDF8EE;
+    padding: 20px 0;
+}
 .container{
     max-width: 1920px;
     width: 100%;
@@ -52,15 +56,44 @@ cursor: pointer;
 transition: all 0.3s ease;
 }
 
-h1 {
-    margin-left: 30px;
-    margin-top: 40px;
-    margin-right: 40px;
-    column-rule-color: #4D2C5E
-    cornflowerblue red;
-    background-color: #4D2C5E;
+
+.banner{
+    background: #FDF8EE;
+    padding-top: 146px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+} 
+.left_text{
+    max-width: 40%;
+}
+.rightImg{
+    max-width: 60%;
+}
+.left_text h2{
+    color: #050C26;
+font-size: 69px;
+font-style: normal;
+font-weight: 800;
+line-height: 135%; /* 93.15px */
+font-family: 'Roboto', sans-serif;
 }
 
+.left_text h2 span{
+    color: #FF7426;
+}
+
+.left_text p{
+    color: #8A8A8A;
+    font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 171%; /* 34.2px */
+padding-right: 70px;
+}
 /* 
 What are Pseudo-classes?
 A pseudo-class is used to define a special state of an element.
