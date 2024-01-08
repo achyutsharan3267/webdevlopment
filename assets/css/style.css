@@ -53,7 +53,12 @@ transition: all 0.3s ease;
 }
 
 h1 {
-    margin-left: 194px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 40px;
+    column-rule-color: #4D2C5E
+    cornflowerblue red;
+    background-color: #4D2C5E;
 }
 
 /* 
