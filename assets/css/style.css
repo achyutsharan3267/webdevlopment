@@ -94,6 +94,32 @@ font-weight: 500;
 line-height: 171%; /* 34.2px */
 padding-right: 70px;
 }
+.banner_2 .flex{
+    justify-content: center;
+}
+.leftimage{
+    margin-right: 146px;
+}
+.point {
+    display: flex;
+    align-items: center;
+}
+.point h4{
+    color: #050C26;
+    font-family: 'Roboto', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 51.3px */
+}
+.point p{
+    color: #8A8A8A;
+    font-family: 'Roboto', sans-serif;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 1; /* 44.46px */
+}
 /* 
 What are Pseudo-classes?
 A pseudo-class is used to define a special state of an element.
@@ -110,5 +136,26 @@ Style an element when it gets focus */
     background-color: #fff;
     color: #4D2C5E;
 } 
+.pr-0{
+    padding-right: 0 !important;
+}
 
-
+.banner_2 .left_text{
+ max-width: 45%;   
+}
+.point{
+    margin-bottom: 34px;
+}
+.point figure{
+    margin-right: 23px;
+}
+.banner_2 .left_text h2{
+    margin-bottom: 43px;
+}
+.banner_2{
+    padding: 63px 0;
+    background-color: #FDF8EE;
+}
+/* .justify-content-center{
+    justify-content: center !important;
+} */
