@@ -156,6 +156,18 @@ Style an element when it gets focus */
     padding: 63px 0;
     background-color: #FDF8EE;
 }
+
 /* .justify-content-center{
     justify-content: center !important;
 } */
+
+.Another Text{
+    color: #050C26;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 167.5%; /* 67px */
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+}
